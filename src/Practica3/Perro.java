@@ -56,6 +56,7 @@ public class Perro extends Mascota {
         return "Perro [raza=" + raza + ", nombre=" + super.getNombre() + ", edad" + super.getEdad() + "]";
     }
     
+    @Override
     public void sonido() {
         System.out.print(this.getNombre() + " dice woof woof");
     }
