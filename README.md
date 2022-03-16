@@ -33,11 +33,11 @@ Tras este primer paso y con el repositorio online listo, el equipo comenzó a re
 
 - Subir el proyecto al github.
 - Copiar las clases del proyecto, de tal manera que se pueda acceder a ellas posteriormente.
-- Eiminar la interfaz <<*iSonido*>> y todas sus dependencias ( Implements y @Override )
+- Eliminar la interfaz <<*iSonido*>> y todas sus dependencias ( Implements y @Override )
 - Crear una nueva rama llamada desarrollo, que contiene una versión independiente de la rama master
 - Se lleva a cabo la primera refactorización, que consiste en extraer la interfaz <<*iSonido*>> 
-- A continuación se ha cerado un nuevo paquete "Interfaz" y se hace la segunda refactorización, donde se mueve la interfaz a este nuevo paquete.
+- A continuación se ha creado un nuevo paquete "Interfaz" y se hace la segunda refactorización, donde se mueve la interfaz a este nuevo paquete.
 - Volver a la rama master y fusionarlo con la rama desarrollo mediante merge, con lo que master se actualizará.
 - De regreso en la rama desarrollo, se efectua la siguiente refactorización, donde se ha renombrado la variable edad de la clase Persona por la variable altura.
 - La última refactorización, ha consistido en modificar la visibilidad de los atributos de la clase Mascota, cambiando esta visibilidad de private a public.
-- Por último, se ha actualizado la rama master, con la última versión presente en la rama desarrollo despúes de llevar a cabo el merge.
+- Por último, se ha actualizado la rama master, con la última versión presente en la rama desarrollo después de llevar a cabo el merge.
