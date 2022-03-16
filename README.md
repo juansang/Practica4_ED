@@ -40,4 +40,4 @@ Tras este primer paso y con el repositorio online listo, el equipo comenzó a re
 - Volver a la rama master y fusionarlo con la rama desarrollo mediante merge, con lo que master se actualizará.
 - De regreso en la rama desarrollo, se efectua la siguiente refactorización, donde se ha renombrado la variable edad de la clase Persona por la variable altura.
 - La última refactorización, ha consistido en modificar la visibilidad de los atributos de la clase Mascota, cambiando esta visibilidad de private a public.
-- Por último, se ha actualizado la rama master, con la anterior versión despúes de llevar a cabo el merge.
+- Por último, se ha actualizado la rama master, con la última versión presente en la rama desarrollo despúes de llevar a cabo el merge.
