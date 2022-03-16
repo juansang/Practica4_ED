@@ -6,8 +6,8 @@ package Practica3;
 
 public abstract class Mascota implements ISonido {
     
-    private String nombre = new String();
-    private Integer edad;
+    public String nombre = new String();
+    public Integer edad;
 
     public String getNombre() {
         /*
