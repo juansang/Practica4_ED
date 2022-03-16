@@ -26,12 +26,12 @@ public class Niño extends Persona {
         @param: */
     }
 
-    public Niño(String colegio, String nombre, String DNI, int edad) {
+    public Niño(String colegio, String nombre, String DNI, int altura) {
         /*constructor Niño(): inicializa las variables de la clase Niño con los valores 
          de los parámetros
-        @param: String colegio, String nombre, String DNI, int edad */
+        @param: String colegio, String nombre, String DNI, int altura */
         
-        super(nombre,DNI,edad);
+        super(nombre,DNI,altura);
         this.colegio = colegio;
     }
 

@@ -34,11 +34,11 @@ public class Adulto extends Persona {
         @param: */
     }
 
-    public Adulto(String NSS, String direccion,String nombre, String DNI, int edad){
+    public Adulto(String NSS, String direccion,String nombre, String DNI, int altura){
         /*constructor Adulto(): inicializa las variables de la clase Adulto con los valores 
          de los parámetros
-        @param: String NSS, String direccion ,String nombre, String DNI, int edad */
-        super(nombre,DNI,edad);
+        @param: String NSS, String direccion ,String nombre, String DNI, int altura */
+        super(nombre,DNI,altura);
         this.NSS = NSS;
         this.direccion = direccion;
     }

@@ -4,7 +4,7 @@ public abstract class Persona {
 
     private String nombre;
     private String DNI;
-    private int edad;
+    private int altura;
 
     public String getNombre() {
         /*método getNombre(): consultar el valor de nombre
@@ -18,16 +18,16 @@ public abstract class Persona {
         this.nombre = nombre;
     }
 
-    public int getEdad() {
-        /*método getEdad(): consultar el valor de edad
-        @return: devuelve el valor del atributo edad*/
-        return edad;
+    public int getAltura() {
+        /*método getAltura(): consultar el valor de altura
+        @return: devuelve el valor del atributo altura*/
+        return altura;
     }
 
-    public void setEdad(Integer edad) {
-        /*método setEdad(): modifica el valor del atributo edad 
-        @param: int edad*/
-        this.edad = edad;
+    public void setAltura(Integer altura) {
+        /*método setAltura(): modifica el valor del atributo altura 
+        @param: int altura*/
+        this.altura = altura;
     }
 
     public String getDNI() {
@@ -42,10 +42,10 @@ public abstract class Persona {
         this.DNI = DNI;
     }
 
-    public Persona(String nombre, String DNI, int edad) {
+    public Persona(String nombre, String DNI, int altura) {
         this.nombre = nombre;
         this.DNI = DNI;
-        this.edad = edad;
+        this.altura = altura;
     }
 
     public Persona() {
@@ -53,6 +53,6 @@ public abstract class Persona {
 
     @Override
     public String toString() {
-        return "Persona [ Nombre=" + nombre + ", DNI=" + DNI + ", Edad=" + edad + " ]";
+        return "Persona [ Nombre=" + nombre + ", DNI=" + DNI + ", Altura=" + altura + " ]";
     }
 }
