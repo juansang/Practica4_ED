@@ -6,7 +6,7 @@ package Practica3;
 
 import java.util.Date;
 
-public class Barco implements ISonido {
+public class Barco{
 
     private String nombre = new String();
     private Date fechaConstruccion;
@@ -103,7 +103,7 @@ public class Barco implements ISonido {
                 + ", numCamarotes=" + numCamarotes + "]";
     }
 
-    @Override
+
     public void sonido() {
         System.out.print(this.getNombre() + " hace SUUUUUUUU");
     }

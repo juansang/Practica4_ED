@@ -4,7 +4,7 @@
  */
 package Practica3;
 
-public abstract class Mascota implements ISonido {
+public abstract class Mascota{
     
     private String nombre = new String();
     private Integer edad;
