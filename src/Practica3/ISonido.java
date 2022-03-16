@@ -4,6 +4,8 @@
  */
 package Practica3;
 
+import Interfaz.NewInterface;
+
 /**
  * Sonido
  */
